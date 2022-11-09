@@ -6,13 +6,13 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(name="atomic6ghg",
-      version="1.0.1",
+      version="1.0.4",
       description="Library of formulas, conversion factors and schemas for greenhouse gas calculations",
       long_description=README,
       long_description_content_type="text/markdown",
-      url="https://github.com/GE-Atomic6/ghg",
-      author_email="atomic.6@ge.com",
-      author="General Electric Company",
+      url="https://github.com/Glasmor/atomic6ghg",
+      author_email="kkelly@hey.com",
+      author="Kevin C Kelly",
       license="BSD 3-Clause License",
       classifiers=[
           "Development Status :: 5 - Production/Stable",
