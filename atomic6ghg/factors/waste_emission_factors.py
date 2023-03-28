@@ -4,10 +4,10 @@ import pkgutil
 
 
 class WasteEmissionFactors:
-    """ Wrapper class for unit_conversions_factors.json """
+    """Wrapper class for unit_conversions_factors.json"""
+
     def __init__(self):
-        self.factors = json.loads(pkgutil.get_data('atomic6ghg.factors',
-            'source_data/waste_emission_factors.json'))
+        self.factors = json.loads(pkgutil.get_data("atomic6ghg.factors", "source_data/waste_emission_factors.json"))
 
     def __getitem__(self, item):
         return self.factors.get(item)

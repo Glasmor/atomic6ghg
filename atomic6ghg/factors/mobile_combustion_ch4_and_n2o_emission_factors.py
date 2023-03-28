@@ -3,11 +3,14 @@ import json
 import pkgutil
 from atomic6ghg import YearValueException, YearMapException
 
+
 class MobileCombustionCh4AndN2oEmissionFactors:
-    """ Wrapper class for mobile_combustion_emission_factors.json """
+    """Wrapper class for mobile_combustion_emission_factors.json"""
+
     def __init__(self):
-        self.factors = json.loads(pkgutil.get_data('atomic6ghg.factors',
-            'source_data/mobile_combustion_ch4_and_n2o_emission_factors.json'))
+        self.factors = json.loads(
+            pkgutil.get_data("atomic6ghg.factors", "source_data/mobile_combustion_ch4_and_n2o_emission_factors.json")
+        )
 
         self._factors = {}
         self.make_factors()
@@ -16,7 +19,8 @@ class MobileCombustionCh4AndN2oEmissionFactors:
         return self._factors.get(vehicle_type)
 
     class YearHandler:
-        """ Class to handle user input years to map the correct factors for a given vehicle type and fuel type """
+        """Class to handle user input years to map the correct factors for a given vehicle type and fuel type"""
+
         def __init__(self, factors_by_year):
             self.factors_by_year = {}
             self._rekey_years(factors_by_year)
@@ -26,7 +30,7 @@ class MobileCombustionCh4AndN2oEmissionFactors:
                 self.get_year_boundaries()
 
         def _rekey_years(self, factors_by_year):
-            """ Turn string keys into integers """
+            """Turn string keys into integers"""
 
             # Assume if length is one then the only key is ''
             if len(factors_by_year) == 1:
@@ -35,7 +39,7 @@ class MobileCombustionCh4AndN2oEmissionFactors:
                 self.factors_by_year = {int(year): factor for year, factor in factors_by_year.items()}
 
         def get_year_boundaries(self):
-            """ Get the minimum and maximum years that have factors """
+            """Get the minimum and maximum years that have factors"""
             years = sorted([int(year) for year in self.factors_by_year])
             self.year_boundaries = [years[0], years[-1]]
 
@@ -56,7 +60,7 @@ class MobileCombustionCh4AndN2oEmissionFactors:
             # If there is only one key then the fuel type has no time dependency and has key 'default'.
             # This also ignores year, which the user can input and may be passed along to the factors.
             if len(self.factors_by_year) == 1:
-                return self.factors_by_year['default']
+                return self.factors_by_year["default"]
             year = self._int_year(year)
             try:
                 return self.factors_by_year[year]
@@ -83,7 +87,7 @@ class MobileCombustionCh4AndN2oEmissionFactors:
         return iter(self._factors)
 
     def make_factors(self):
-        """ Wrap year level of factors json in class YearHandler to handle user input for years of mobile vehicles"""
+        """Wrap year level of factors json in class YearHandler to handle user input for years of mobile vehicles"""
         for vehicle_type in self.factors:
             self._factors[vehicle_type] = {}
             for fuel_type in self.factors[vehicle_type]:

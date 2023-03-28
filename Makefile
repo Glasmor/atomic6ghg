@@ -58,4 +58,4 @@ dist: requirements.txt pyproject.toml manifest.in
 	python -m build --wheel --outdir ./dist .
 
 black:
-	black -l 125 calculator
+	black -l 125 atomic6ghg
