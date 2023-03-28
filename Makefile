@@ -30,8 +30,8 @@ all_tests: unittests linters typecheckers
 	# alt usage: make -k
 
 local_dist:
-	python3 -m build --wheel --outdir ./dist ./calculator ; \
-	pip install -e calculator
+	python3 -m build --wheel --outdir ./dist . ; \
+	pip install -e atomic6ghg
 
 linters:
 	export PYTHONPATH=${PYTHONPATH}:${PWD}/atomic6ghg ; \

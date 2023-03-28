@@ -16,7 +16,7 @@ authors = [{ name = "Mark Diehr", email = "mark.diehr@ge.com"},
 
 maintainers = [{ name = "Kevin C Kelly", email = "kkelly@glasmor.io"}]
 
-license = { file = "LICENSE.md"}
+license = { file = "LICENSE"}
 classifiers=[
     "Development Status :: 5 - Production/Stable",
     "License :: OSI Approved :: BSD License",
