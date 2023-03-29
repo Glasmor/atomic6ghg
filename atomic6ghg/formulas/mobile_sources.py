@@ -43,11 +43,9 @@ class MobileSources(Formula):
     ]
     nonroad_vehicles = [
         "agriculturalEquipment",
-        "agriculturalOffroadTrucks",
         "aircraft",
         "airportEquipment",
         "constructionMiningEquipment",
-        "constructionMiningOffroadTrucks",
         "industrialCommercialEquipment",
         "lawnAndGardenEquipment",
         "locomotives",

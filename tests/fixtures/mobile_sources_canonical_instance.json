@@ -194,34 +194,12 @@
       "sourceId": "Fleet-012",
       "sourceDescription": "HQ Fleet",
       "onOrNonRoad": "NonRoad",
-      "vehicleType": "agriculturalOffroadTrucks",
-      "vehicleYear": null,
-      "fuelUsage": 100,
-      "units": null,
-      "milesTraveled": 3500,
-      "fuelType": "diesel"
-    },
-    {
-      "sourceId": "Fleet-012",
-      "sourceDescription": "HQ Fleet",
-      "onOrNonRoad": "NonRoad",
       "vehicleType": "constructionMiningEquipment",
       "vehicleYear": null,
       "fuelUsage": 100,
       "units": null,
       "milesTraveled": 3500,
       "fuelType": "gasoline2Stroke"
-    },
-    {
-      "sourceId": "Fleet-012",
-      "sourceDescription": "HQ Fleet",
-      "onOrNonRoad": "NonRoad",
-      "vehicleType": "constructionMiningOffroadTrucks",
-      "vehicleYear": null,
-      "fuelUsage": 100,
-      "units": null,
-      "milesTraveled": 3500,
-      "fuelType": "gasoline"
     },
     {
       "sourceId": "Fleet-012",
@@ -1437,23 +1415,6 @@
       ]
     },
     {
-      "vehicleType": "agriculturalOffroadTrucks",
-      "emissionByFuelType": [
-        {
-          "fuelType": "gasoline",
-          "fuelUsage": 0,
-          "CH4": 0.0,
-          "N2O": 0.0
-        },
-        {
-          "fuelType": "diesel",
-          "fuelUsage": 100,
-          "CH4": 13.0,
-          "N2O": 49.0
-        }
-      ]
-    },
-    {
       "vehicleType": "aircraft",
       "emissionByFuelType": [
         {
@@ -1516,23 +1477,6 @@
         },
         {
           "fuelType": "lpg",
-          "fuelUsage": 0,
-          "CH4": 0.0,
-          "N2O": 0.0
-        }
-      ]
-    },
-    {
-      "vehicleType": "constructionMiningOffroadTrucks",
-      "emissionByFuelType": [
-        {
-          "fuelType": "gasoline",
-          "fuelUsage": 100,
-          "CH4": 558.0,
-          "N2O": 20.0
-        },
-        {
-          "fuelType": "diesel",
           "fuelUsage": 0,
           "CH4": 0.0,
           "N2O": 0.0
