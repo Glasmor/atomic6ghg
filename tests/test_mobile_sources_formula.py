@@ -18,6 +18,19 @@ def calculated_data(canonical_data):
     mobile_sources = MobileSources(wks_data=canonical_data)
     return mobile_sources
 
+def make_comparable_data_fixture():
+    with open("./fixtures/mobile_sources_canonical_instance.json", "r") as f:
+        original = json.load(f)
+
+    with open("./fixtures/original_mobile_sources_canonical_instance.json", "w") as f:
+        json.dump(original, f, indent=2, sort_keys=True)
+
+def make_canonical_data_fixture(calculated_data):
+    with open("./fixtures/new_mobile_sources_canonical_instance.json", "w") as f:
+        response = {"version": "mobile-sources.1.0.0"}
+        response.update(calculated_data.to_dict())
+        json.dump(response, f, indent=2, sort_keys=True)
+
 
 def test_make_total_mobile_sources_fuel_usage_and_co2_emissions(canonical_data, calculated_data):
     key = "totalMobileSourcesFuelUsageAndCO2Emissions"

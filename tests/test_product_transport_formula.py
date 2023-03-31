@@ -19,6 +19,20 @@ def calculated_data(canonical_data):
     return product_transport
 
 
+def make_comparable_data_fixture():
+    with open("./fixtures/product_transport_canonical_instance.json", "r") as f:
+        original = json.load(f)
+
+    with open("./fixtures/original_product_transport_canonical_instance.json", "w") as f:
+        json.dump(original, f, indent=2, sort_keys=True)
+
+def make_canonical_data_fixture(calculated_data):
+    with open("./fixtures/new_product_transport_canonical_instance.json", "w") as f:
+        response = {"version": "product-transport.1.0.0"}
+        response.update(calculated_data.to_dict())
+        json.dump(response, f, indent=2, sort_keys=True)
+
+
 def test_make_product_transport_by_vehicle_miles(canonical_data, calculated_data):
     key = "productTransportByVehicleMiles"
     calculated_vehicle_types = []
