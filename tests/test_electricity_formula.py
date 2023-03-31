@@ -18,6 +18,20 @@ def calculated_data(canonical_data):
     return electricity
 
 
+def make_comparable_data_fixture():
+    with open("./fixtures/electricity_canonical_instance.json", "r") as f:
+        original = json.load(f)
+
+    with open("./fixtures/original_electricity_canonical_instance.json", "w") as f:
+        json.dump(original, f, indent=2, sort_keys=True)
+
+def make_canonical_data_fixture(calculated_data):
+    with open("./fixtures/new_electricity_canonical_instance.json", "w") as f:
+        response = {"version": "electricity.1.0.0"}
+        response.update(calculated_data.to_dict())
+        json.dump(response, f, indent=2, sort_keys=True)
+
+
 def test_make_electricity(canonical_data, calculated_data):
     key = "totalElectricityPurchased"
     calculated_subregions = []

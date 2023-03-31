@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 
 class PurchasedGases(Formula):
-    """ Calculate emissions from purchased gases """
+    """Calculate emissions from purchased gases"""
 
     def __init__(self, wks_data=None):
         super().__init__(wks_data=wks_data)
@@ -27,38 +27,39 @@ class PurchasedGases(Formula):
     def make_purchased_gases(self):
         """Calculate CO2 equivalent emissions for each input row"""
         purchased_gases = []
-        self._total_emissions['purchasedGases'] = 0.
-        for row in self.wks_data.get('purchasedGases', []):
-            gas = row['gas']
+        self._total_emissions["purchasedGases"] = 0.0
+        for row in self.wks_data.get("purchasedGases", []):
+            gas = row["gas"]
             if not gas:
                 purchased_gases.append(row)
                 continue
 
             gwp = refrigerants_gwp_factors[gas]
 
-            purchased_amount = null_replacer(row['purchasedAmount'])
-            co2_equivalent_emissions = PurchasedGases.calculate_co2_emissions_purchased_gases(gwp,
-                                                                                              purchased_amount)
+            purchased_amount = null_replacer(row["purchasedAmount"])
+            co2_equivalent_emissions = PurchasedGases.calculate_co2_emissions_purchased_gases(gwp, purchased_amount)
 
-            self._total_emissions['purchasedGases'] += co2_equivalent_emissions
-            calculated_row = {'gas': gas, 'gasGWP': gwp, 'purchasedAmount': purchased_amount,
-                              'CO2EquivalentEmissions': co2_equivalent_emissions}
+            self._total_emissions["purchasedGases"] += co2_equivalent_emissions
+            calculated_row = {
+                "gas": gas,
+                "gasGWP": gwp,
+                "purchasedAmount": purchased_amount,
+                "CO2EquivalentEmissions": co2_equivalent_emissions,
+            }
             purchased_gases.append(calculated_row)
 
-        self._output['purchasedGases'] = purchased_gases
-
+        self._output["purchasedGases"] = purchased_gases
 
     @staticmethod
     def calculate_co2_emissions_purchased_gases(gwp, purchased_amount):
         """Calculate CO2 emissions for a gas given material balance inputs"""
         ret = gwp * purchased_amount
         # Handle potential negative values
-        ret = max(0., ret)
+        ret = max(0.0, ret)
         return ret
 
-
     def make_co2_equivalent_emissions(self):
-        """ Calculate co2 equivalent emissions """
-        total = (unit_conversions_factors['pounds']['kilogram'] * (self._total_emissions['purchasedGases'])) / 1000.
+        """Calculate co2 equivalent emissions"""
+        total = (unit_conversions_factors["pounds"]["kilogram"] * (self._total_emissions["purchasedGases"])) / 1000.0
 
-        self._output['totalCO2EquivalentEmissions'] = total
+        self._output["totalCO2EquivalentEmissions"] = total

@@ -422,66 +422,66 @@
     }
   ],
   "totalBiomassCO2EquivalentEmissions": 2.218,
-  "totalCO2EquivalentEmissions": 30.937649999999998,
+  "totalCO2EquivalentEmissions": 33.631813300000005,
   "totalMobileSourcesFuelUsageAndCO2Emissions": [
     {
-      "CO2": 14047.999999999998,
+      "CO2": 14925.999999999998,
       "fuelType": "gasoline",
-      "fuelUsage": 1600,
+      "fuelUsage": 1700.0,
       "units": "gallons"
     },
     {
-      "CO2": 8168.000000000001,
+      "CO2": 9189,
       "fuelType": "diesel",
-      "fuelUsage": 800,
+      "fuelUsage": 900.0,
       "units": "gallons"
     },
     {
-      "CO2": 1127.0,
+      "CO2": 1127,
       "fuelType": "residualFuelOil",
-      "fuelUsage": 100,
+      "fuelUsage": 100.0,
       "units": "gallons"
     },
     {
-      "CO2": 0.0,
+      "CO2": 0,
       "fuelType": "aviationGasoline",
-      "fuelUsage": 0,
+      "fuelUsage": 0.0,
       "units": "gallons"
     },
     {
-      "CO2": 975.0,
+      "CO2": 975,
       "fuelType": "jetFuel",
-      "fuelUsage": 100,
+      "fuelUsage": 100.0,
       "units": "gallons"
     },
     {
-      "CO2": 2272.0,
+      "CO2": 2272,
       "fuelType": "lpg",
-      "fuelUsage": 400,
+      "fuelUsage": 400.0,
       "units": "gallons"
     },
     {
       "CO2": 702.4,
       "fuelType": "ethanol",
-      "fuelUsage": 400,
+      "fuelUsage": 400.0,
       "units": "gallons"
     },
     {
       "CO2": 1633.6000000000001,
       "fuelType": "biodiesel",
-      "fuelUsage": 200,
+      "fuelUsage": 200.0,
       "units": "gallons"
     },
     {
-      "CO2": 450.0,
+      "CO2": 450,
       "fuelType": "lng",
-      "fuelUsage": 100,
+      "fuelUsage": 100.0,
       "units": "gallons"
     },
     {
       "CO2": 5.444,
       "fuelType": "cng",
-      "fuelUsage": 100,
+      "fuelUsage": 100.0,
       "units": "scf"
     }
   ],
@@ -489,42 +489,31 @@
     {
       "emissionByFuelType": [
         {
-          "CH4": 111.00000000000001,
-          "N2O": 32.0,
-          "fuelType": "residualFuelOil",
-          "fuelUsage": 100.0
-        },
-        {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "gasoline2Stroke",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "gasoline4Stroke",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "diesel",
-          "fuelUsage": 0.0
-        }
-      ],
-      "vehicleType": "shipsAndBoats"
-    },
-    {
-      "emissionByFuelType": [
+          "fuelUsage": 0
+        },
         {
-          "CH4": 80.0,
-          "N2O": 26.0,
-          "fuelType": "diesel",
-          "fuelUsage": 100.0
+          "CH4": 219.0,
+          "N2O": 39.0,
+          "fuelType": "lpg",
+          "fuelUsage": 100
         }
       ],
-      "vehicleType": "locomotives"
+      "vehicleType": "agriculturalEquipment"
     },
     {
       "emissionByFuelType": [
@@ -532,13 +521,13 @@
           "CH4": 0.0,
           "N2O": 30.0,
           "fuelType": "jetFuel",
-          "fuelUsage": 100.0
+          "fuelUsage": 100
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "aviationGasoline",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         }
       ],
       "vehicleType": "aircraft"
@@ -548,79 +537,49 @@
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "fuelType": "gasoline2Stroke",
-          "fuelUsage": 0.0
+          "fuelType": "gasoline",
+          "fuelUsage": 0
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "fuelType": "gasoline4Stroke",
-          "fuelUsage": 0.0
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "fuelType": "gasolineOffRoadTrucks",
-          "fuelUsage": 0.0
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "fuelType": "dieselEquipment",
-          "fuelUsage": 0.0
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "fuelType": "dieselOffRoadTrucks",
-          "fuelUsage": 0.0
+          "fuelType": "diesel",
+          "fuelUsage": 0
         },
         {
           "CH4": 33.0,
-          "N2O": 94.0,
+          "N2O": 41.0,
           "fuelType": "lpg",
-          "fuelUsage": 100.0
+          "fuelUsage": 100
         }
       ],
-      "vehicleType": "agriculturalEquipment"
+      "vehicleType": "airportEquipment"
     },
     {
       "emissionByFuelType": [
         {
-          "CH4": 798.0,
-          "N2O": 12.0,
+          "CH4": 1242.0,
+          "N2O": 7.000000000000001,
           "fuelType": "gasoline2Stroke",
-          "fuelUsage": 100.0
+          "fuelUsage": 100
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "gasoline4Stroke",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "fuelType": "gasolineOffRoadTrucks",
-          "fuelUsage": 0.0
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "fuelType": "dieselEquipment",
-          "fuelUsage": 0.0
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "fuelType": "dieselOffRoadTrucks",
-          "fuelUsage": 0.0
+          "fuelType": "diesel",
+          "fuelUsage": 0
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "lpg",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         }
       ],
       "vehicleType": "constructionMiningEquipment"
@@ -631,77 +590,25 @@
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "gasoline2Stroke",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         },
         {
-          "CH4": 299.0,
-          "N2O": 149.0,
+          "CH4": 548.0,
+          "N2O": 20.0,
           "fuelType": "gasoline4Stroke",
-          "fuelUsage": 100.0
+          "fuelUsage": 100
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "diesel",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "lpg",
-          "fuelUsage": 0.0
-        }
-      ],
-      "vehicleType": "lawnAndGardenEquipment"
-    },
-    {
-      "emissionByFuelType": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "fuelType": "gasoline",
-          "fuelUsage": 0.0
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "fuelType": "diesel",
-          "fuelUsage": 0.0
-        },
-        {
-          "CH4": 35.0,
-          "N2O": 89.0,
-          "fuelType": "lpg",
-          "fuelUsage": 100.0
-        }
-      ],
-      "vehicleType": "airportEquipment"
-    },
-    {
-      "emissionByFuelType": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "fuelType": "gasoline2Stroke",
-          "fuelUsage": 0.0
-        },
-        {
-          "CH4": 274.0,
-          "N2O": 154.0,
-          "fuelType": "gasoline4Stroke",
-          "fuelUsage": 100.0
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "fuelType": "diesel",
-          "fuelUsage": 0.0
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "fuelType": "lpg",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         }
       ],
       "vehicleType": "industrialCommercialEquipment"
@@ -712,19 +619,59 @@
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "gasoline2Stroke",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
+        },
+        {
+          "CH4": 584.0,
+          "N2O": 18.0,
+          "fuelType": "gasoline4Stroke",
+          "fuelUsage": 100
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "fuelType": "diesel",
+          "fuelUsage": 0
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "fuelType": "lpg",
+          "fuelUsage": 0
+        }
+      ],
+      "vehicleType": "lawnAndGardenEquipment"
+    },
+    {
+      "emissionByFuelType": [
+        {
+          "CH4": 80.0,
+          "N2O": 26.0,
+          "fuelType": "diesel",
+          "fuelUsage": 100
+        }
+      ],
+      "vehicleType": "locomotives"
+    },
+    {
+      "emissionByFuelType": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "fuelType": "gasoline2Stroke",
+          "fuelUsage": 0
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "gasoline4Stroke",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         },
         {
-          "CH4": 48.0,
-          "N2O": 127.0,
+          "CH4": 10.0,
+          "N2O": 49.0,
           "fuelType": "diesel",
-          "fuelUsage": 100.0
+          "fuelUsage": 100
         }
       ],
       "vehicleType": "loggingEquipment"
@@ -735,19 +682,19 @@
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "gasoline",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "diesel",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         },
         {
-          "CH4": 199.0,
-          "N2O": 1.0,
+          "CH4": 120.0,
+          "N2O": 41.0,
           "fuelType": "lpg",
-          "fuelUsage": 100.0
+          "fuelUsage": 100
         }
       ],
       "vehicleType": "railroadEquipment"
@@ -755,681 +702,226 @@
     {
       "emissionByFuelType": [
         {
-          "CH4": 1761.0,
-          "N2O": 11.0,
+          "CH4": 781.0,
+          "N2O": 3.0,
           "fuelType": "gasoline2Stroke",
-          "fuelUsage": 100.0
+          "fuelUsage": 100
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "gasoline4Stroke",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "diesel",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
           "fuelType": "lpg",
-          "fuelUsage": 0.0
+          "fuelUsage": 0
         }
       ],
       "vehicleType": "recreationalEquipment"
+    },
+    {
+      "emissionByFuelType": [
+        {
+          "CH4": 55.00000000000001,
+          "N2O": 55.00000000000001,
+          "fuelType": "residualFuelOil",
+          "fuelUsage": 100
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "fuelType": "gasoline2Stroke",
+          "fuelUsage": 0
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "fuelType": "gasoline4Stroke",
+          "fuelUsage": 0
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "fuelType": "diesel",
+          "fuelUsage": 0
+        }
+      ],
+      "vehicleType": "shipsAndBoats"
     }
   ],
   "totalOrganizationWideOnRoadGasolineMobileSourceMileageAndEmissions": [
     {
       "emissionByYear": [
         {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1973-1974"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1975"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1976-1977"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1978-1979"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1980"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1981"
-        },
-        {
-          "CH4": 278.25,
-          "N2O": 219.45000000000002,
-          "mileage": 3500.0,
-          "vehicleYear": "1982"
-        },
-        {
-          "CH4": 273.70000000000005,
-          "N2O": 220.5,
-          "mileage": 3500.0,
-          "vehicleYear": "1983"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1984-1993"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1994"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1995"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1996"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1997"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1998"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1999"
-        },
-        {
-          "CH4": 61.25000000000001,
-          "N2O": 106.4,
-          "mileage": 3500.0,
-          "vehicleYear": "2000"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2001"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2002"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2003"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2004"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2005"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2006"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2007"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2008"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2009"
-        },
-        {
-          "CH4": 24.85,
-          "N2O": 16.1,
-          "mileage": 3500.0,
-          "vehicleYear": "2010"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2011"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2012"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2013"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2014"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2015"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2016"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2017"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2018"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2019"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2020"
-        }
-      ],
-      "vehicleType": "passengerCars"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1973-1974"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1975"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1976"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1977-1978"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1979-1980"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1981"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1982"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1983"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1984"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1985"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1986"
-        },
-        {
-          "CH4": 284.55,
-          "N2O": 362.25,
-          "mileage": 3500.0,
-          "vehicleYear": "1987-1993"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1994"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1995"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1996"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1997"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1998"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1999"
-        },
-        {
-          "CH4": 119.00000000000001,
-          "N2O": 220.85000000000002,
-          "mileage": 3500.0,
-          "vehicleYear": "2000"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2001"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2002"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2003"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2004"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2005"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2006"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2007"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2008"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2009"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2010"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2011"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2012"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2013"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2014"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2015"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2016"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2017"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2018"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2019"
-        },
-        {
-          "CH4": 27.650000000000002,
-          "N2O": 4.199999999999999,
-          "mileage": 3500.0,
-          "vehicleYear": "2020"
-        }
-      ],
-      "vehicleType": "lightDutyTrucks"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "\u22641980"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1981-1984"
-        },
-        {
           "CH4": 1431.5,
           "N2O": 180.25,
-          "mileage": 3500.0,
+          "mileage": 3500,
           "vehicleYear": "1985-1986"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "1987"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "1988-1989"
         },
         {
           "CH4": 2272.2,
           "N2O": 799.4,
-          "mileage": 7000.0,
+          "mileage": 7000,
           "vehicleYear": "1990-1995"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "1996"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "1997"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "1998"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "1999"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2000"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2001"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2002"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2003"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2004"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2005"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2006"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2007"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2008"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2009"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2010"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2011"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2012"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2013"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2014"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2015"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2016"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": "2017"
         },
         {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
+          "CH4": 114.1,
+          "N2O": 28.700000000000003,
+          "mileage": 3500,
           "vehicleYear": "2018"
-        },
-        {
-          "CH4": 115.5,
-          "N2O": 31.85,
-          "mileage": 3500.0,
-          "vehicleYear": "2019"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2020"
         }
       ],
       "vehicleType": "heavyDutyVehicles"
@@ -1437,86 +929,558 @@
     {
       "emissionByYear": [
         {
+          "CH4": 284.55,
+          "N2O": 362.25,
+          "mileage": 3500,
+          "vehicleYear": "1987-1993"
+        },
+        {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1994"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1995"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1996"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1997"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1998"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1999"
+        },
+        {
+          "CH4": 119.00000000000001,
+          "N2O": 220.85000000000002,
+          "mileage": 3500,
+          "vehicleYear": "2000"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2001"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2002"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2003"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2004"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2005"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2006"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2007"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2008"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2009"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2010"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2011"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2012"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2013"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2014"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2015"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2016"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2017"
+        },
+        {
+          "CH4": 28.349999999999998,
+          "N2O": 5.25,
+          "mileage": 3500,
+          "vehicleYear": "2018"
+        }
+      ],
+      "vehicleType": "lightDutyTrucks"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
           "vehicleYear": "1960-1995"
         },
         {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 3500.0,
-          "vehicleYear": "1996-2005"
+          "CH4": 235.2,
+          "N2O": 24.15,
+          "mileage": 3500,
+          "vehicleYear": "1996-present"
+        }
+      ],
+      "vehicleType": "motorcycles"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 492.8,
+          "N2O": 452.9,
+          "mileage": 7000,
+          "vehicleYear": "1984-1993"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2006-2020"
+          "mileage": 0,
+          "vehicleYear": "1994"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1995"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1996"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1997"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1998"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1999"
+        },
+        {
+          "CH4": 61.25000000000001,
+          "N2O": 106.4,
+          "mileage": 3500,
+          "vehicleYear": "2000"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2001"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2002"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2003"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2004"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2005"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2006"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2007"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2008"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2009"
+        },
+        {
+          "CH4": 24.85,
+          "N2O": 16.1,
+          "mileage": 3500,
+          "vehicleYear": "2010"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2011"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2012"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2013"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2014"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2015"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2016"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2017"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2018"
         }
       ],
-      "vehicleType": "motorcycles"
+      "vehicleType": "passengerCars"
     }
   ],
   "totalOrganizationWideOnRoadNonGasolineMobileSourceMileageAndEmissions": [
     {
       "emissionByYear": [
         {
-          "CH4": 4.199999999999999,
-          "N2O": 8.399999999999999,
-          "mileage": 7000.0,
-          "vehicleYear": "1960-1982"
-        },
-        {
-          "CH4": 1.75,
-          "N2O": 3.5,
-          "mileage": 3500.0,
-          "vehicleYear": "1983-2006"
-        },
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2007-2020"
+          "CH4": 31.499999999999996,
+          "N2O": 150.5,
+          "mileage": 3500,
+          "vehicleYear": ""
         }
       ],
-      "fuelType": "diesel",
-      "vehicleType": "passengerCars"
+      "fuelType": "biodiesel",
+      "vehicleType": "buses"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 35000.0,
+          "N2O": 3.5,
+          "mileage": 3500,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "cng",
+      "vehicleType": "buses"
     },
     {
       "emissionByYear": [
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "1960-1982"
-        },
-        {
-          "CH4": 3.15,
-          "N2O": 4.9,
-          "mileage": 3500.0,
-          "vehicleYear": "1983-2006"
-        },
-        {
-          "CH4": 101.5,
-          "N2O": 74.89999999999999,
-          "mileage": 3500.0,
-          "vehicleYear": "2007-2020"
+          "mileage": 0,
+          "vehicleYear": ""
         }
       ],
-      "fuelType": "diesel",
-      "vehicleType": "lightDutyTrucks"
+      "fuelType": "ethanol",
+      "vehicleType": "buses"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "lng",
+      "vehicleType": "buses"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "lpg",
+      "vehicleType": "buses"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "methanol",
+      "vehicleType": "buses"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "biodiesel",
+      "vehicleType": "heavyDutyTrucks"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "cng",
+      "vehicleType": "heavyDutyTrucks"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "ethanol",
+      "vehicleType": "heavyDutyTrucks"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 12950.0,
+          "N2O": 3.5,
+          "mileage": 3500,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "lng",
+      "vehicleType": "heavyDutyTrucks"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 45.5,
+          "N2O": 91.0,
+          "mileage": 3500,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "lpg",
+      "vehicleType": "heavyDutyTrucks"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "methanol",
+      "vehicleType": "heavyDutyTrucks"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "biodiesel",
+      "vehicleType": "lightDutyCars"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "cng",
+      "vehicleType": "lightDutyCars"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 28.0,
+          "N2O": 21.0,
+          "mileage": 3500,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "ethanol",
+      "vehicleType": "lightDutyCars"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "lpg",
+      "vehicleType": "lightDutyCars"
     },
     {
       "emissionByYear": [
         {
           "CH4": 56.0,
-          "N2O": 17.5,
-          "mileage": 3500.0,
+          "N2O": 42.0,
+          "mileage": 7000,
           "vehicleYear": ""
         }
       ],
-      "fuelType": "ethanol",
+      "fuelType": "methanol",
+      "vehicleType": "lightDutyCars"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "biodiesel",
       "vehicleType": "lightDutyTrucks"
     },
     {
@@ -1524,7 +1488,7 @@
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": ""
         }
       ],
@@ -1536,11 +1500,41 @@
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1960-1982"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1983-1995"
+        },
+        {
+          "CH4": 3.5,
+          "N2O": 5.25,
+          "mileage": 3500,
+          "vehicleYear": "1996-2006"
+        },
+        {
+          "CH4": 101.5,
+          "N2O": 74.89999999999999,
+          "mileage": 3500,
+          "vehicleYear": "2007-2018"
+        }
+      ],
+      "fuelType": "diesel",
+      "vehicleType": "lightDutyTrucks"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 42.0,
+          "N2O": 38.5,
+          "mileage": 3500,
           "vehicleYear": ""
         }
       ],
-      "fuelType": "lpg",
+      "fuelType": "ethanol",
       "vehicleType": "lightDutyTrucks"
     },
     {
@@ -1548,7 +1542,7 @@
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": ""
         }
       ],
@@ -1560,11 +1554,11 @@
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
+          "mileage": 0,
           "vehicleYear": ""
         }
       ],
-      "fuelType": "biodiesel",
+      "fuelType": "lpg",
       "vehicleType": "lightDutyTrucks"
     },
     {
@@ -1572,14 +1566,14 @@
         {
           "CH4": 17.85,
           "N2O": 16.799999999999997,
-          "mileage": 3500.0,
+          "mileage": 3500,
           "vehicleYear": "1960-2006"
         },
         {
           "CH4": 0.0,
           "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": "2007-2020"
+          "mileage": 0,
+          "vehicleYear": "2007-2018"
         }
       ],
       "fuelType": "diesel",
@@ -1588,254 +1582,80 @@
     {
       "emissionByYear": [
         {
-          "CH4": 105.0,
-          "N2O": 28.0,
-          "mileage": 7000.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "methanol",
-      "vehicleType": "lightDutyCars"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 52.5,
-          "N2O": 14.0,
-          "mileage": 3500.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "ethanol",
-      "vehicleType": "lightDutyCars"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "cng",
-      "vehicleType": "lightDutyCars"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "lpg",
-      "vehicleType": "lightDutyCars"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "biodiesel",
-      "vehicleType": "lightDutyCars"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "cng",
-      "vehicleType": "mediumDutyTrucks"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "lpg",
-      "vehicleType": "mediumDutyTrucks"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "lng",
-      "vehicleType": "mediumDutyTrucks"
-    },
-    {
-      "emissionByYear": [
-        {
           "CH4": 31.499999999999996,
-          "N2O": 150.5,
-          "mileage": 3500.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "biodiesel",
-      "vehicleType": "mediumDutyTrucks"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "methanol",
-      "vehicleType": "heavyDutyTrucks"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "ethanol",
-      "vehicleType": "heavyDutyTrucks"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "cng",
-      "vehicleType": "heavyDutyTrucks"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 10.5,
-          "N2O": 24.5,
-          "mileage": 3500.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "lpg",
-      "vehicleType": "heavyDutyTrucks"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 3223.5,
-          "N2O": 0.0,
-          "mileage": 3500.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "lng",
-      "vehicleType": "heavyDutyTrucks"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "biodiesel",
-      "vehicleType": "heavyDutyTrucks"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "methanol",
-      "vehicleType": "buses"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "ethanol",
-      "vehicleType": "buses"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 9754.5,
           "N2O": 3.5,
-          "mileage": 3500.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "cng",
-      "vehicleType": "buses"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "lpg",
-      "vehicleType": "buses"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 0.0,
-          "N2O": 0.0,
-          "mileage": 0.0,
-          "vehicleYear": ""
-        }
-      ],
-      "fuelType": "lng",
-      "vehicleType": "buses"
-    },
-    {
-      "emissionByYear": [
-        {
-          "CH4": 31.499999999999996,
-          "N2O": 150.5,
-          "mileage": 3500.0,
+          "mileage": 3500,
           "vehicleYear": ""
         }
       ],
       "fuelType": "biodiesel",
-      "vehicleType": "buses"
+      "vehicleType": "mediumDutyTrucks"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "cng",
+      "vehicleType": "mediumDutyTrucks"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "lng",
+      "vehicleType": "mediumDutyTrucks"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": ""
+        }
+      ],
+      "fuelType": "lpg",
+      "vehicleType": "mediumDutyTrucks"
+    },
+    {
+      "emissionByYear": [
+        {
+          "CH4": 4.199999999999999,
+          "N2O": 8.399999999999999,
+          "mileage": 7000,
+          "vehicleYear": "1960-1982"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "1983-1995"
+        },
+        {
+          "CH4": 1.75,
+          "N2O": 3.5,
+          "mileage": 3500,
+          "vehicleYear": "1996-2006"
+        },
+        {
+          "CH4": 0.0,
+          "N2O": 0.0,
+          "mileage": 0,
+          "vehicleYear": "2007-2018"
+        }
+      ],
+      "fuelType": "diesel",
+      "vehicleType": "passengerCars"
     }
   ],
   "version": "mobile-sources.1.0.0"

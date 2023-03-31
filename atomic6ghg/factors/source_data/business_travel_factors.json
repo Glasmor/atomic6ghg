@@ -1,20 +1,20 @@
 {
   "passengerCars": {
-    "co2": 0.341,
-    "ch4": 0.009,
-    "n2o": 0.008,
+    "co2": 0.313,
+    "ch4": 0.008,
+    "n2o": 0.007,
     "units": "vehicle-mile"
   },
   "lightDutyTruck": {
-    "co2": 0.464,
-    "ch4": 0.012,
-    "n2o": 0.01,
+    "co2": 0.467,
+    "ch4": 0.013,
+    "n2o": 0.012,
     "units": "vehicle-mile"
   },
   "motorcycle": {
-    "co2": 0.189,
-    "ch4": 0.07,
-    "n2o": 0.007,
+    "co2": 0.178,
+    "ch4": 0.111,
+    "n2o": 0.019,
     "units": "vehicle-mile"
   },
   "intercityRailNortheastCorridor": {
@@ -36,39 +36,39 @@
     "units": "passenger-mile"
   },
   "commuterRail": {
-    "co2": 0.143,
-    "ch4": 0.0119,
-    "n2o": 0.0029,
+    "co2": 0.135,
+    "ch4": 0.0109,
+    "n2o": 0.0027,
     "units": "passenger-mile"
   },
   "transitRail": {
-    "co2": 0.106,
-    "ch4": 0.0095,
-    "n2o": 0.0013,
+    "co2": 0.096,
+    "ch4": 0.008,
+    "n2o": 0.0011,
     "units": "passenger-mile"
   },
   "bus": {
-    "co2": 0.054,
-    "ch4": 0.0206,
-    "n2o": 0.0009,
+    "co2": 0.055,
+    "ch4": 0.0063,
+    "n2o": 0.0011,
     "units": "passenger-mile"
   },
   "shortHaul": {
-    "co2": 0.206,
-    "ch4": 0.0071,
-    "n2o": 0.0065,
+    "co2": 0.207,
+    "ch4": 0.0064,
+    "n2o": 0.0066,
     "units": "passenger-mile"
   },
   "mediumHaul": {
-    "co2": 0.131,
+    "co2": 0.129,
     "ch4": 0.0006,
-    "n2o": 0.0042,
+    "n2o": 0.0041,
     "units": "passenger-mile"
   },
   "longHaul": {
-    "co2": 0.161,
+    "co2": 0.163,
     "ch4": 0.0006,
-    "n2o": 0.0051,
+    "n2o": 0.0052,
     "units": "passenger-mile"
   }
 }
