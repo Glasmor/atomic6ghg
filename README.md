@@ -11,11 +11,6 @@ Install it from PyPI:
 
 The `docs` branch of this repository hosts content for and tools supporting creating the static web-site hosted on GitHub.io Pages. Contributions for the documentation web-site must be PR'd against the `docs` branch.
 
-## Build
-The `build` branch of this repository hosts tools for packaging `atomic6ghg` and publishing it to package indexes where it is advertised.
-
-The `build` branch is maintained by the Glasmor Software team. Generally, PR's are not solicited on this branch. 
-
 ## Example Application
 Checkout the [online calculator](https://orion.predix.io/calculator). It uses all the features of `atomic6ghg`.
 

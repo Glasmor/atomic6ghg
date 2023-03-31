@@ -4,14 +4,14 @@ build-backend = "hatchling.build"
 
 [project]
 name = "atomic6ghg"
-version = "1.1.0"
+version = "1.1.1"
 description="Library of formulas, conversion factors and schemas for greenhouse gas calculations"
 readme = "README.md"
-authors = [{ name = "Mark Diehr", email = "mark.diehr@ge.com"},
-    { name = "Kevin C Kelly", email = "kkelly@glasmor.io"},
+authors = [{ name = "Kevin C Kelly", email = "kkelly@glasmor.io"},
     { name = "Dave McGhan", email = "dave.mcghan@ge.com"},
     { name = "Macenzie Mitchell", email = "mackenziemitchell6@gmail.com"},
-    { name = "Danial Oh", email = "danial.oh@ge.com"}
+    { name = "Danial Oh", email = "danial.oh@ge.com"},
+    { name = "Mark Diehr", email = "mark.diehr@ge.com"},
 ]
 
 maintainers = [{ name = "Kevin C Kelly", email = "kkelly@glasmor.io"}]
@@ -31,7 +31,7 @@ requires-python = ">=3.10"
 
 [project.urls]
 repository = "https://github.com/Glasmor/atomic6ghg"
-homepage = "https://glasmor.io"
+homepage = "https://glasmorsoftware.com"
 
 [project.optional-dependencies]
 dev = ["pytest", "pylint", "pip-tools", "mypy", "black", "jsonschema"]
